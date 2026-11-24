@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Sarrvesh M — Creative Technologist &amp; Embedded Hardware Engineer</title>
+    <meta name="description" content="A scroll story: Sarrvesh M, Creative Technologist and Embedded Hardware Engineer in Puducherry, India. From physical silicon and factory floors to real-time 3D digital realities." />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- Preload exact Timeless Sans Grotesk fonts -->
+    <link rel="preload" href="/fonts/TimelessSans-GroteskLight.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/TimelessSans-GroteskRegular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/TimelessSans-GroteskMedium.woff2" as="font" type="font/woff2" crossorigin />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+      /* First paint before any script: black, one star (jehaduddin.vercel.app style) */
+      html { background: #000; color: #e9e7e1; }
+      body { margin: 0; background: #000; }
+      #star {
+        position: fixed;
+        left: 58%;
+        top: 46%;
+        width: 4px;
+        height: 4px;
+        margin: -2px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.6);
+        opacity: 0.25;
+        pointer-events: none;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-[#000000] text-[#e9e7e1] selection:bg-[#ff9d42] selection:text-black overflow-x-hidden antialiased">
+    <!-- Solitary Star on First Paint -->
+    <div id="star" aria-hidden="true"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
