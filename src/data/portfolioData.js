@@ -7,7 +7,7 @@ export const personalInfo = {
   email: "sarrveshvma22@gmail.com",
   phone: "+91 9790431812",
   linkedin: "https://linkedin.com/in/sarrvesh-m",
-  github: "https://github.com",
+  github: "https://github.com/sarrveshvma22-byte",
   status: "Available for Engineering & Creative Tech Roles",
   currentRole: "Graduate Engineering Trainee at Schopiq Automation",
   education: "B.Tech in Electronics and Instrumentation (CGPA 8.26)",

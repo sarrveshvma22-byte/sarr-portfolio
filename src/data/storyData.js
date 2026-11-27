@@ -10,7 +10,7 @@ export const personalInfo = {
   phone: "+91 9790431812",
   whatsapp: "https://wa.me/919790431812",
   linkedin: "https://linkedin.com/in/sarrvesh-m",
-  github: "https://github.com",
+  github: "https://github.com/sarrveshvma22-byte",
   available: "Open to engineering & creative technology roles",
   replies: "Replies within 24 hours",
   education: "B.Tech in Electronics and Instrumentation (CGPA 8.26)",
